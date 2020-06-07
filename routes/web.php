@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', 'Frontend\IndexController@index');
+
+/**
+ * Route cho administrator
+ */
+Route::prefix('admin')->group(function() {
+    // Gom nhóm các route cho phần admin
+    Route::get('/', 'Backend\DashboardController@index');
+
 });
