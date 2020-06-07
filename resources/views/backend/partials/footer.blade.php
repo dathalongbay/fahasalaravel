@@ -1,7 +1,9 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: dathalongbay
- * Date: 6/7/2020
- * Time: 10:46 AM
- */
+<!-- Footer -->
+<footer class="sticky-footer bg-white">
+    <div class="container my-auto">
+        <div class="copyright text-center my-auto">
+            <span>Copyright &copy; Your Website 2019</span>
+        </div>
+    </div>
+</footer>
+<!-- End of Footer -->
