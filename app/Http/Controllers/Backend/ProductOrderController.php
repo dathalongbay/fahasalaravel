@@ -8,4 +8,10 @@ use Illuminate\Http\Request;
 class ProductOrderController extends Controller
 {
     //
+
+
+    public function index() {
+
+    }
+
 }

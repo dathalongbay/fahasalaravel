@@ -14,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'Frontend\IndexController@index');
+Route::get('/shop-category/{id}', 'Frontend\CategoryProductController@index');
+Route::get('/new-category/{id}', 'Frontend\CategoryBlogController@index');
+
+
 
 /**
  * Route cho administrator
