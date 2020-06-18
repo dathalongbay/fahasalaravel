@@ -10,6 +10,6 @@ class AuthorController extends Controller
     //
 
     public function index() {
-
+        return view('backend.contents.authors.index');
     }
 }

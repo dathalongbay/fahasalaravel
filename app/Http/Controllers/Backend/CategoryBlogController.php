@@ -12,5 +12,8 @@ class CategoryBlogController extends Controller
 
     public function index() {
 
+        return view('backend.contents.blogcategories.index');
+
+
     }
 }

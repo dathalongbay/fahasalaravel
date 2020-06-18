@@ -10,6 +10,7 @@ class BlogController extends Controller
     //
 
     public function index() {
+        return view('backend.contents.blogs.index');
 
     }
 }

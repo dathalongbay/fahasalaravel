@@ -1,7 +1,12 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: dathalongbay
- * Date: 6/7/2020
- * Time: 10:51 AM
- */
+@extends('backend.layouts.main')
+
+@section('title', 'Page Title')
+
+@section('sidebar')
+    @parent
+
+@endsection
+
+@section('content')
+    <h1>Trang quản lý tác giả</h1>
+@endsection
