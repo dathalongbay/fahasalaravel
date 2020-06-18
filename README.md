@@ -76,64 +76,64 @@
 ### Mô tả các cấu trúc trong Frontend
 
 #### Controller/Frontend/BlogController.php
-trang hiển thị 1 bài viết tin tức bên ngoài frontend
-model : app/Models/BlogModel.php
-view : resources/views/frontend/contents/blog.blade.php
+* trang hiển thị 1 bài viết tin tức bên ngoài frontend
+* model : app/Models/BlogModel.php
+* view : resources/views/frontend/contents/blog.blade.php
 
 #### Controller/Frontend/CartController.php
-trang giỏ hàng frontend
-model : app/Models/CartModel.php
-view : resources/views/frontend/contents/cart.blade.php
+* trang giỏ hàng frontend
+* model : app/Models/CartModel.php
+* view : resources/views/frontend/contents/cart.blade.php
 
 #### Controller/Frontend/CategoryBlogController.php
-trang hiển thị danh sách các bài viết trong 1 danh mục tin tức
-model : app/Models/BlogCategoryModel.php
-view : resources/views/frontend/contents/blog-list.blade.php
+* trang hiển thị danh sách các bài viết trong 1 danh mục tin tức
+* model : app/Models/BlogCategoryModel.php
+* view : resources/views/frontend/contents/blog-list.blade.php
 
 #### Controller/Frontend/CategoryProductController.php
-trang hiển thị danh sách các sản phẩm trong 1 danh mục 
-model : app/Models/CategoryProductModel.php
-view : resources/views/frontend/contents/product-list.blade.php
+* trang hiển thị danh sách các sản phẩm trong 1 danh mục 
+* model : app/Models/CategoryProductModel.php
+* view : resources/views/frontend/contents/product-list.blade.php
 
 #### Controller/Frontend/ChatController.php
-Trang hỗ trợ khách hàng chat support
-model : app/Models/ChatModel.php
-view : Chưa có
+* Trang hỗ trợ khách hàng chat support
+* model : app/Models/ChatModel.php
+* view : Chưa có
 
 #### Controller/Frontend/CheckoutController.php
-Trang thanh toán
-model : app/Models/ProductOrderModel.php
-view : resources/views/frontend/contents/checkout.blade.php
+* Trang thanh toán
+* model : app/Models/ProductOrderModel.php
+* view : resources/views/frontend/contents/checkout.blade.php
 
 #### Controller/Frontend/ContactController.php
-Trang gửi liên hệ yêu cầu từ khách hàng
-model : app/Models/ContactModel.php
-view : resources/views/frontend/contents/contact.blade.php
+* Trang gửi liên hệ yêu cầu từ khách hàng
+* model : app/Models/ContactModel.php
+* view : resources/views/frontend/contents/contact.blade.php
 
 #### Controller/Frontend/IndexController.php
-Trang chủ của trang web frontend
-model : app/Models/IndexModel.php
-view : resources/views/frontend/contents/homepage.blade.php
+* Trang chủ của trang web frontend
+* model : app/Models/IndexModel.php
+* view : resources/views/frontend/contents/homepage.blade.php
 
 #### Controller/Frontend/LoginController.php
-Trang đăng nhập bên ngoài FE
-model : app/Models/CustomerModel.php
-view : resources/views/frontend/contents/login.blade.php
+* Trang đăng nhập bên ngoài FE
+* model : app/Models/CustomerModel.php
+* view : resources/views/frontend/contents/login.blade.php
 
 #### Controller/Frontend/ProductController.php
-Trang hiển thi chi tiết 1 sản phẩm
-model : app/Models/ProductModel.php
-view : resources/views/frontend/contents/product.blade.php
+* Trang hiển thi chi tiết 1 sản phẩm
+* model : app/Models/ProductModel.php
+* view : resources/views/frontend/contents/product.blade.php
 
 #### Controller/Frontend/RegisterController.php
-Trang đăng ký cho 1 khách hàng mới
-model : app/Models/CustomerModel.php
-view : resources/views/frontend/contents/register.blade.php
+* Trang đăng ký cho 1 khách hàng mới
+* model : app/Models/CustomerModel.php
+* view : resources/views/frontend/contents/register.blade.php
 
 ### Controller/Backend/PageController.php
-quản lý trang tĩnh bên ngoài trang FE
-model : app/Models/PageModel.php
-view : resources/views/frontend/contents/page.blade.php
+* quản lý trang tĩnh bên ngoài trang FE
+* model : app/Models/PageModel.php
+* view : resources/views/frontend/contents/page.blade.php
 
 
 
