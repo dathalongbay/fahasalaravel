@@ -13,46 +13,74 @@
 * quản lý các bài viết trong admin
 * model : app/Models/BlogModel.php 
 * view : resources/views/backend/contents/blogs
+> * index.blade.php ( hiển thị danh sách bản ghi và phân trang)
+> * create.blade.php ( form thêm mới )
+> * edit.blade.php ( form sửa thông tin )
 
 #### Controller/Backend/CategoryBlogController.php
 * quản lý danh mục bài viết trong admin
 * model : app/Models/BlogCategoryModel.php
 * view : resources/views/backend/contents/blogcategories
+> * index.blade.php ( hiển thị danh sách bản ghi và phân trang)
+> * create.blade.php ( form thêm mới )
+> * edit.blade.php ( form sửa thông tin )
 
 #### Controller/Backend/CategoryProductController.php
 * quản lý danh mục sản phẩm trong admin
 * model : app/Models/CategoryProductModel.php
 * view : resources/views/backend/contents/productcategories
+> * index.blade.php ( hiển thị danh sách bản ghi và phân trang)
+> * create.blade.php ( form thêm mới )
+> * edit.blade.php ( form sửa thông tin )
 
 #### Controller/Backend/ProductController.php
 * quản lý sản phẩm trong admin
 * model : app/Models/ProductModel.php
 * view : resources/views/backend/contents/products
+> * index.blade.php ( hiển thị danh sách bản ghi và phân trang)
+> * create.blade.php ( form thêm mới )
+> * edit.blade.php ( form sửa thông tin )
 
 ### Controller/Backend/ChatController.php
 * quản lý chat support trong admin
 * model : app/Models/ChatModel.php
 * view : resources/views/backend/contents/chats
+> * index.blade.php ( hiển thị danh sách bản ghi và phân trang)
+> * create.blade.php ( form thêm mới )
+> * edit.blade.php ( form sửa thông tin )
 
 ### Controller/Backend/ConfigController.php
 * quản lý cấu hình trang web trong admin ( thay ảnh logo , nhập địa chỉ ...)
 * model : app/Models/ConfigModel.php
 * view : resources/views/backend/contents/configs
+> * index.blade.php ( hiển thị danh sách bản ghi và phân trang)
+> * create.blade.php ( form thêm mới )
+> * edit.blade.php ( form sửa thông tin )
+> * config.blade.php ( global config thay đổi tất cả các cấu hình trang web )
 
 ### Controller/Backend/ContactController.php
 * quản lý liên hệ trong admin
 * model : app/Models/ContactModel.php
 * view : resources/views/backend/contents/contacts
+> * index.blade.php ( hiển thị danh sách bản ghi và phân trang)
+> * create.blade.php ( form thêm mới )
+> * edit.blade.php ( form sửa thông tin )
 
 ### Controller/Backend/CustomerController.php
 * quản lý khách hàng trong admin
 * model : app/Models/CustomerModel.php
 * view : resources/views/backend/contents/customers
+> * index.blade.php ( hiển thị danh sách bản ghi và phân trang)
+> * create.blade.php ( form thêm mới )
+> * edit.blade.php ( form sửa thông tin )
 
 ### Controller/Backend/DashboardController.php
 * quản lý trang thống kê tổng quan trong admin
 * model : app/Models/DashboardModel.php
 * view : resources/views/backend/contents/dashboard.blade.php
+> * index.blade.php ( hiển thị danh sách bản ghi và phân trang)
+> * create.blade.php ( form thêm mới )
+> * edit.blade.php ( form sửa thông tin )
 
 ### Controller/Backend/ProductOrderController.php
 * quản lý đơn hàng trong admin
@@ -60,21 +88,33 @@
 * app/Models/OrderModel.php ( đơn hàng tổng )
 * app/Models/ProductOrderModel.php ( đơn hàng chi tiết theo sản phẩm )
 * view : resources/views/backend/contents/orders
+> * index.blade.php ( hiển thị danh sách bản ghi và phân trang)
+> * create.blade.php ( form thêm mới )
+> * edit.blade.php ( form sửa thông tin )
 
 ### Controller/Backend/PublisherController.php
 * quản lý nhà xuất bản trong admin
 * model : app/Models/PublisherModel.php
 * view :resources/views/backend/contents/publishers
+> * index.blade.php ( hiển thị danh sách bản ghi và phân trang)
+> * create.blade.php ( form thêm mới )
+> * edit.blade.php ( form sửa thông tin )
 
 ### Controller/Backend/ReviewController.php
 * quản lý đánh giá sản phẩm của khách trong admin
 * model : app/Models/ReviewModel.php
 * view : resources/views/backend/contents/reviews
+> * index.blade.php ( hiển thị danh sách bản ghi và phân trang)
+> * create.blade.php ( form thêm mới )
+> * edit.blade.php ( form sửa thông tin )
 
 ### Controller/Backend/PageController.php
 * quản lý trang tĩnh trong admin
 * model : app/Models/PageModel.php
 * view : resources/views/backend/contents/pages
+> * index.blade.php ( hiển thị danh sách bản ghi và phân trang)
+> * create.blade.php ( form thêm mới )
+> * edit.blade.php ( form sửa thông tin )
 
 ### Mô tả các cấu trúc trong Frontend
 
