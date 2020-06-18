@@ -35,14 +35,14 @@
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="">Khách hàng</a>
-                <a class="collapse-item" href="">Đơn hàng</a>
-                <a class="collapse-item" href="">Danh mục sản phẩm</a>
-                <a class="collapse-item" href="">Sản phẩm</a>
-                <a class="collapse-item" href="">Đánh giá</a>
-                <a class="collapse-item" href="">Chat support</a>
-                <a class="collapse-item" href="">Nhà xuất bản</a>
-                <a class="collapse-item" href="">Tác giả</a>
+                <a class="collapse-item" href="{{ url('/admin/customer') }}">Khách hàng</a>
+                <a class="collapse-item" href="{{ url('/admin/product-order') }}">Đơn hàng</a>
+                <a class="collapse-item" href="{{ url('/admin/category-product') }}">Danh mục sản phẩm</a>
+                <a class="collapse-item" href="{{ url('/admin/product') }}">Sản phẩm</a>
+                <a class="collapse-item" href="{{ url('/admin/product') }}">Đánh giá</a>
+                <a class="collapse-item" href="{{ url('/admin/product') }}">Chat support</a>
+                <a class="collapse-item" href="{{ url('/admin/product') }}">Nhà xuất bản</a>
+                <a class="collapse-item" href="{{ url('/admin/product') }}">Tác giả</a>
             </div>
         </div>
     </li>
@@ -55,9 +55,9 @@
         </a>
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="utilities-color.html">Danh mục tin</a>
-                <a class="collapse-item" href="utilities-color.html">Danh sách bài viết</a>
-                <a class="collapse-item" href="utilities-border.html">Trang tĩnh</a>
+                <a class="collapse-item" href="{{ url('/admin/product') }}">Danh mục tin</a>
+                <a class="collapse-item" href="{{ url('/admin/product') }}">Danh sách bài viết</a>
+                <a class="collapse-item" href="{{ url('/admin/product') }}">Trang tĩnh</a>
             </div>
         </div>
     </li>
@@ -65,55 +65,23 @@
     <!-- Divider -->
     <hr class="sidebar-divider">
 
-    <!-- Heading -->
-    <div class="sidebar-heading">
-        Addons
-    </div>
-
-    <!-- Nav Item - Pages Collapse Menu -->
-    <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-            <i class="fas fa-fw fa-folder"></i>
-            <span>Pages</span>
-        </a>
-        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-                <h6 class="collapse-header">Login Screens:</h6>
-                <a class="collapse-item" href="login.html">Login</a>
-                <a class="collapse-item" href="register.html">Register</a>
-                <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
-                <div class="collapse-divider"></div>
-                <h6 class="collapse-header">Other Pages:</h6>
-                <a class="collapse-item" href="404.html">404 Page</a>
-                <a class="collapse-item" href="blank.html">Blank Page</a>
-            </div>
-        </div>
-    </li>
-
-    <!-- Nav Item - Charts -->
-    <li class="nav-item">
-        <a class="nav-link" href="charts.html">
-            <i class="fas fa-fw fa-chart-area"></i>
-            <span>Charts</span></a>
-    </li>
-
     <!-- Nav Item - Tables -->
     <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="{{ url('/admin/product') }}">
             <i class="fas fa-fw fa-table"></i>
             <span>Danh sách liên hệ</span></a>
     </li>
 
     <!-- Nav Item - Tables -->
     <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="{{ url('/admin/product') }}">
             <i class="fas fa-fw fa-table"></i>
             <span>Danh sách admin</span></a>
     </li>
 
     <!-- Nav Item - Tables -->
     <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="{{ url('/admin/config') }}">
             <i class="fas fa-fw fa-table"></i>
             <span>Cấu hình trang web</span></a>
     </li>
