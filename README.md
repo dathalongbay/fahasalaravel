@@ -4,9 +4,9 @@
 * quản lý tác giả trong admin
 * model : app/Models/AuthorModel.php
 * view : resources/views/backend/contents/authors
-> index.blade.php ( hiển thị danh sách bản ghi và phân trang)
-> create.blade.php ( form thêm mới )
-> edit.blade.php ( form sửa thông tin )
+> * index.blade.php ( hiển thị danh sách bản ghi và phân trang)
+> * create.blade.php ( form thêm mới )
+> * edit.blade.php ( form sửa thông tin )
 * CSDL : database/migrations/2020_06_18_130517_create_authors_table.php
 
 #### Controller/Backend/BlogController.php
