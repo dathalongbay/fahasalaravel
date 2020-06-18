@@ -1,5 +1,5 @@
 # fahasalaravel
-### Mô tả các controller trong Backend
+### Mô tả các cấu trúc file trong Backend
 #### Controller/Backend/AuthorController.php
 * quản lý tác giả trong admin
 * model : app/Models/AuthorModel.php
@@ -7,73 +7,73 @@
 * CSDL : database/migrations/2020_06_18_130517_create_authors_table.php
 
 #### Controller/Backend/BlogController.php
-quản lý các bài viết trong admin
-model : app/Models/BlogModel.php 
-view : resources/views/backend/contents/blogs
+* quản lý các bài viết trong admin
+* model : app/Models/BlogModel.php 
+* view : resources/views/backend/contents/blogs
 
 #### Controller/Backend/CategoryBlogController.php
-quản lý danh mục bài viết trong admin
-model : app/Models/BlogCategoryModel.php
-view : resources/views/backend/contents/blogcategories
+* quản lý danh mục bài viết trong admin
+* model : app/Models/BlogCategoryModel.php
+* view : resources/views/backend/contents/blogcategories
 
 #### Controller/Backend/CategoryProductController.php
-quản lý danh mục sản phẩm trong admin
-model : app/Models/CategoryProductModel.php
-view : resources/views/backend/contents/productcategories
+* quản lý danh mục sản phẩm trong admin
+* model : app/Models/CategoryProductModel.php
+* view : resources/views/backend/contents/productcategories
 
 #### Controller/Backend/ProductController.php
-quản lý sản phẩm trong admin
-model : app/Models/ProductModel.php
-view : resources/views/backend/contents/products
+* quản lý sản phẩm trong admin
+* model : app/Models/ProductModel.php
+* view : resources/views/backend/contents/products
 
 ### Controller/Backend/ChatController.php
-quản lý chat support trong admin
-model : app/Models/ChatModel.php
-view : resources/views/backend/contents/chats
+* quản lý chat support trong admin
+* model : app/Models/ChatModel.php
+* view : resources/views/backend/contents/chats
 
 ### Controller/Backend/ConfigController.php
-quản lý cấu hình trang web trong admin ( thay ảnh logo , nhập địa chỉ ...)
-model : app/Models/ConfigModel.php
-view : resources/views/backend/contents/configs
+* quản lý cấu hình trang web trong admin ( thay ảnh logo , nhập địa chỉ ...)
+* model : app/Models/ConfigModel.php
+* view : resources/views/backend/contents/configs
 
 ### Controller/Backend/ContactController.php
-quản lý liên hệ trong admin
-model : app/Models/ContactModel.php
-view : resources/views/backend/contents/contacts
+* quản lý liên hệ trong admin
+* model : app/Models/ContactModel.php
+* view : resources/views/backend/contents/contacts
 
 ### Controller/Backend/CustomerController.php
-quản lý khách hàng trong admin
-model : app/Models/CustomerModel.php
-view : resources/views/backend/contents/customers
+* quản lý khách hàng trong admin
+* model : app/Models/CustomerModel.php
+* view : resources/views/backend/contents/customers
 
 ### Controller/Backend/DashboardController.php
-quản lý trang thống kê tổng quan trong admin
-model : app/Models/DashboardModel.php
-view : resources/views/backend/contents/dashboard.blade.php
+* quản lý trang thống kê tổng quan trong admin
+* model : app/Models/DashboardModel.php
+* view : resources/views/backend/contents/dashboard.blade.php
 
 ### Controller/Backend/ProductOrderController.php
-quản lý đơn hàng trong admin
-model : 2 model ORM
-app/Models/OrderModel.php ( đơn hàng tổng )
-app/Models/ProductOrderModel.php ( đơn hàng chi tiết theo sản phẩm )
-view : resources/views/backend/contents/orders
+* quản lý đơn hàng trong admin
+* model : 2 model ORM bên dưới
+* app/Models/OrderModel.php ( đơn hàng tổng )
+* app/Models/ProductOrderModel.php ( đơn hàng chi tiết theo sản phẩm )
+* view : resources/views/backend/contents/orders
 
 ### Controller/Backend/PublisherController.php
-quản lý nhà xuất bản trong admin
-model : app/Models/PublisherModel.php
-view :resources/views/backend/contents/publishers
+* quản lý nhà xuất bản trong admin
+* model : app/Models/PublisherModel.php
+* view :resources/views/backend/contents/publishers
 
 ### Controller/Backend/ReviewController.php
-quản lý đánh giá sản phẩm của khách trong admin
-model : app/Models/ReviewModel.php
-view :
+* quản lý đánh giá sản phẩm của khách trong admin
+* model : app/Models/ReviewModel.php
+* view : resources/views/backend/contents/reviews
 
 ### Controller/Backend/PageController.php
-quản lý trang tĩnh trong admin
-model : app/Models/PageModel.php
-view : resources/views/backend/contents/pages
+* quản lý trang tĩnh trong admin
+* model : app/Models/PageModel.php
+* view : resources/views/backend/contents/pages
 
-### Mô tả các controller trong Frontend
+### Mô tả các cấu trúc trong Frontend
 
 #### Controller/Frontend/BlogController.php
 trang hiển thị 1 bài viết tin tức bên ngoài frontend
