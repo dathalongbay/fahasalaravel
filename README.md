@@ -16,6 +16,7 @@
 > * index.blade.php ( hiển thị danh sách bản ghi và phân trang)
 > * create.blade.php ( form thêm mới )
 > * edit.blade.php ( form sửa thông tin )
+* CSDL : database/migrations/2020_06_18_133404_create_blogs_table.php
 
 #### Controller/Backend/CategoryBlogController.php
 * quản lý danh mục bài viết trong admin
@@ -24,6 +25,7 @@
 > * index.blade.php ( hiển thị danh sách bản ghi và phân trang)
 > * create.blade.php ( form thêm mới )
 > * edit.blade.php ( form sửa thông tin )
+* CSDL : database/migrations/2020_06_18_133431_create_blogs_category_table.php
 
 #### Controller/Backend/CategoryProductController.php
 * quản lý danh mục sản phẩm trong admin
@@ -32,6 +34,7 @@
 > * index.blade.php ( hiển thị danh sách bản ghi và phân trang)
 > * create.blade.php ( form thêm mới )
 > * edit.blade.php ( form sửa thông tin )
+* CSDL : database/migrations/2020_06_18_131115_create_products_category_table.php
 
 #### Controller/Backend/ProductController.php
 * quản lý sản phẩm trong admin
@@ -40,6 +43,7 @@
 > * index.blade.php ( hiển thị danh sách bản ghi và phân trang)
 > * create.blade.php ( form thêm mới )
 > * edit.blade.php ( form sửa thông tin )
+* CSDL : database/migrations/2020_06_18_130728_create_products_table.php
 
 ### Controller/Backend/ChatController.php
 * quản lý chat support trong admin
